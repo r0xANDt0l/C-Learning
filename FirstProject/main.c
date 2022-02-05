@@ -3,6 +3,9 @@
 
 int main()
 {
-    printf("Hello world!\n");
+
+    printf("Las olimipiadas de Beijing\a"); // First commend yay
+    printf("I'm cool :swag:");
+
     return 0;
 }
