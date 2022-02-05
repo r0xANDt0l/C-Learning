@@ -32,8 +32,30 @@ int main()
 
     printf("I am %d years old\n", age);
 
+    //You can also do some math operations with variables
+
     int ageCY; //Age CURRENT YEAR
     ageCY = 2022-2007;
     printf("I am %d years old\n", ageCY);
+
+    //You can also do math with other variables
+    int Value1;
+    int Value2;
+    int Value3;
+
+    Value1 = 1;
+    Value2 = 2;
+    Value3 = Value1 + Value2;
+
+    printf("The values are: %d, %d y %d\n", Value1, Value2, Value3);
+
+    //Life hack: You can also give value to the variables in the same line
+
+    int Valor1 = 10;
+    int Valor2 = 20;
+    int Valor3 = Valor1-Valor2;
+
+    printf("Valor 3 is: %d\n", Valor3);
+
     return 0;
 }
