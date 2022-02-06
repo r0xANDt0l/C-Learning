@@ -1,2 +1,2 @@
-#define MANAME "rodri"
+#define MANAME "rox"
 #define CURRENTAGE 14
