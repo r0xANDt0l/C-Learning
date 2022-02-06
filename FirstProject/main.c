@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <string.h>
 
 int main()
 {
@@ -65,15 +65,30 @@ int main()
      * - Set the data type (Char...)
      * - Give it a name
      * - Add brackets next to the name and put the value (in bytes) of the array. Remember to count the String Terminator and Whitespaces!
-     * Rigoberto Canales\0
      */
 
     char name[18] = "Rigoberto Canales";
 
     printf("My name is %s\n", name);
 
-    //You can access a value of the array by writing the name of the array, and between the brackets, adding the position
+    // You can access a value of the array by writing the name of the array, and between the brackets, adding the position
     // For single characters, use '' instead of ""
-    name[5] = 'p'
+
+    name[5] = 'p';
+    printf("My name is not %s\n", name);
+
+    // Life hack! You don't actually need to count the values manually. If you leave the brackets empty, The compiler will count them for you!
+    char food[] = "Borgir";
+
+    printf("%s is an edible item\n", food);
+
+    // If you want to change the value of an array, you have to use the  function "strcpy();"
+    // Syntax of the function: (Array you want to change, the string you want to set it to)
+    // Also, you'll want to include string.h (#include <string.h>
+
+    strcpy(food, "Bacon");
+
+    printf("%s is an edible item\n", food);
+
     return 0;
 }
