@@ -67,6 +67,12 @@ build CMakeFiles/C_Learning.dir/FirstProject/main.c.obj: C_COMPILER__C_Learning_
   OBJECT_DIR = CMakeFiles\C_Learning.dir
   OBJECT_FILE_DIR = CMakeFiles\C_Learning.dir\FirstProject
 
+build CMakeFiles/C_Learning.dir/Inputs/InputOutput.c.obj: C_COMPILER__C_Learning_Debug D$:/Github/C-Learning/C-Learning/Inputs/InputOutput.c || cmake_object_order_depends_target_C_Learning
+  DEP_FILE = CMakeFiles\C_Learning.dir\Inputs\InputOutput.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles\C_Learning.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_Learning.dir\Inputs
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C_Learning
@@ -75,7 +81,7 @@ build CMakeFiles/C_Learning.dir/FirstProject/main.c.obj: C_COMPILER__C_Learning_
 #############################################
 # Link the executable C_Learning.exe
 
-build C_Learning.exe: C_EXECUTABLE_LINKER__C_Learning_Debug CMakeFiles/C_Learning.dir/FirstProject/main.c.obj
+build C_Learning.exe: C_EXECUTABLE_LINKER__C_Learning_Debug CMakeFiles/C_Learning.dir/FirstProject/main.c.obj CMakeFiles/C_Learning.dir/Inputs/InputOutput.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C_Learning.dir

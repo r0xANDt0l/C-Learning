@@ -107,6 +107,24 @@ int main()
     int girlsAge = (CURRENTAGE/2)+7;
     printf("%s can date girls that are %d or older", MANAME, girlsAge);
 
+    char firstName[20];
+    char crush[20];
+    int numberOfChildren;
+
+    //When using scanf, you can't use whitespaces
+    printf("What is your name? \n");
+    scanf("%s", firstName);
+
+    printf("Who's your crush? \n");
+    scanf("%s", crush);
+
+    //IMPORTANT: You need to put "&" before every variable that isn't an array
+    printf("How many children do you plan on having? \n");
+    scanf("%d", &numberOfChildren);
+
+    printf("%s and %s are in love and they'll have %d children", firstName, crush, numberOfChildren);
+    return 0;
+
 
     return 0;
 }
