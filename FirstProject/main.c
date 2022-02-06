@@ -122,9 +122,13 @@ int main()
     printf("How many children do you plan on having? \n");
     scanf("%d", &numberOfChildren);
 
-    printf("%s and %s are in love and they'll have %d children", firstName, crush, numberOfChildren);
-    return 0;
+    printf("%s and %s are in love and they'll have %d children\n", firstName, crush, numberOfChildren);
+
+
+    int weight = 134;
+    printf("If i eat a materwelon, I'll weight %d stones\n", weight+41);
 
 
     return 0;
+
 }
