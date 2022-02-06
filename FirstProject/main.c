@@ -1,6 +1,9 @@
-#include <stdlib.h>
 #include <stdio.h> // Standard Input Output
 #include <string.h>
+#include "FirstHeader.h"
+
+// Use <> to search in the default dir, use "" to search in the current dir
+
 /*
  * How to declare a "#define":
  * - Write #define
@@ -98,6 +101,12 @@ int main()
     strcpy(food, "Bacon");
 
     printf("%s is an edible item\n", food);
+
+    //Example: am I allowed to date someone?
+
+    int girlsAge = (CURRENTAGE/2)+7;
+    printf("%s can date girls that are %d or older", MANAME, girlsAge);
+
 
     return 0;
 }

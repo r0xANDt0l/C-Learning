@@ -1,8 +1,2 @@
-//
-// Created by rodri on 06/02/2022.
-//
-
-#ifndef C_LEARNING_FIRSTHEADER_H
-#define C_LEARNING_FIRSTHEADER_H
-
-#endif //C_LEARNING_FIRSTHEADER_H
+#define MANAME "rodri"
+#define CURRENTAGE 14
