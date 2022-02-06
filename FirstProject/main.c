@@ -57,5 +57,19 @@ int main()
 
     printf("Valor 3 is: %d\n", Valor3);
 
+    //String terminators: To use less memory, when you're using a string, end the string with "\0". Ex: "Rigoberto Canales\0"
+
+    /*
+     * Arrays!!
+     * How to create them:
+     * - Set the data type (Char...)
+     * - Give it a name
+     * - Add brackets next to the name and put the value (in bytes) of the array. Remember to count the String Terminator and Whitespaces!
+     * Rodrigo Sanchez\0
+     */
+
+    char name[16] = "Rodrigo Sanchez";
+
+    printf("My name is %s\n", name);
     return 0;
 }
