@@ -1,9 +1,18 @@
 #include <stdlib.h>
-#include <stdio.h>
+#include <stdio.h> // Standard Input Output
 #include <string.h>
+/*
+ * How to declare a "#define":
+ * - Write #define
+ * - Write the name of the const
+ * - Assign it a value. YOU CAN'T CHANGE IT LATER, AND YOU DON'T NEED "=" NOR ";"
+ */
+
+#define MYNAME "McFest Borealis"
 
 int main()
 {
+    printf("My name do be %s\n", MYNAME);
     /*
      * %s -> Strings
      * %d -> Whole numbers (1, 2, 3...)
