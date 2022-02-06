@@ -65,11 +65,15 @@ int main()
      * - Set the data type (Char...)
      * - Give it a name
      * - Add brackets next to the name and put the value (in bytes) of the array. Remember to count the String Terminator and Whitespaces!
-     * Rodrigo Sanchez\0
+     * Rigoberto Canales\0
      */
 
-    char name[16] = "Rodrigo Sanchez";
+    char name[18] = "Rigoberto Canales";
 
     printf("My name is %s\n", name);
+
+    //You can access a value of the array by writing the name of the array, and between the brackets, adding the position
+    // For single characters, use '' instead of ""
+    name[5] = 'p'
     return 0;
 }
