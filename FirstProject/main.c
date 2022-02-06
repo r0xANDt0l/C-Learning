@@ -105,7 +105,7 @@ int main()
     //Example: am I allowed to date someone?
 
     int girlsAge = (CURRENTAGE/2)+7;
-    printf("%s can date girls that are %d or older", MANAME, girlsAge);
+    printf("%s can date girls that are %d or older\n", MANAME, girlsAge);
 
     char firstName[20];
     char crush[20];
