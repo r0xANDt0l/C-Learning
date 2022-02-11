@@ -1,15 +1,12 @@
 # ninja log v5
-1	130	6658658067420410	CMakeFiles/C_Learning.dir/FirstProject/main.c.obj	7b03cd7c1ca465f0
-1	60	6658659102517598	CMakeFiles/C_Learning.dir/Inputs/InputOutput.c.obj	34b620969b959612
-81	169	6658583653696216	C_Learning.exe	f99c447577b322ca
-9	84	6658658066960397	CMakeFiles/C_Learning.dir/Inputs/main.c.obj	ff3cfe74ccaae80
-2	164	6658659898847625	build.ninja	369a7ed008096bf6
-0	149	6658659898847625	build.ninja	369a7ed008096bf6
-1	63	6658659900052610	CMakeFiles/C_Learning.dir/FirstProject/main.c.obj	7b03cd7c1ca465f0
-63	141	6658659900802612	C_Learning.exe	7acba44ffde327e2
-1	73	6658660100071781	CMakeFiles/C_Learning.dir/FirstProject/main.c.obj	7b03cd7c1ca465f0
-74	157	6658660100871777	C_Learning.exe	7acba44ffde327e2
-1	459	6658668139588071	CMakeFiles/C_Learning.dir/FirstProject/main.c.obj	7b03cd7c1ca465f0
-459	545	6658668140423074	C_Learning.exe	7acba44ffde327e2
 0	71	6658668309363089	CMakeFiles/C_Learning.dir/FirstProject/main.c.obj	7b03cd7c1ca465f0
+1	60	6658659102517598	CMakeFiles/C_Learning.dir/Inputs/InputOutput.c.obj	34b620969b959612
 71	148	6658668310098089	C_Learning.exe	7acba44ffde327e2
+9	84	6658658066960397	CMakeFiles/C_Learning.dir/Inputs/main.c.obj	ff3cfe74ccaae80
+0	149	6659664319052118	build.ninja	369a7ed008096bf6
+1	533	6663266830376396	CMakeFiles/C_Learning.dir/FirstProject/main.c.obj	7b03cd7c1ca465f0
+533	835	6663266833341916	C_Learning.exe	7acba44ffde327e2
+1	90	6663267891483297	CMakeFiles/C_Learning.dir/FirstProject/main.c.obj	7b03cd7c1ca465f0
+90	185	6663267892393455	C_Learning.exe	7acba44ffde327e2
+1	85	6663268081459804	CMakeFiles/C_Learning.dir/FirstProject/main.c.obj	7b03cd7c1ca465f0
+85	174	6663268082304948	C_Learning.exe	7acba44ffde327e2

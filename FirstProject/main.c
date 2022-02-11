@@ -128,6 +128,13 @@ int main()
     int weight = 134;
     printf("If i eat a materwelon, I'll weight %d stones\n", weight+41);
 
+    //Order of operations work like we were taught at school.
+
+    int a = 1 + 2 * 3;
+    printf("Result: %d\n", a);
+
+    int b = (1 + 2) * 3;
+    printf("Result: %d\n", b);
 
     return 0;
 
