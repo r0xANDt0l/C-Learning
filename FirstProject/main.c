@@ -127,14 +127,40 @@ int main()
 
     int weight = 134;
     printf("If i eat a materwelon, I'll weight %d stones\n", weight+41);
+    // If i eat a materwelon, I'll weight 175 stones
+
 
     //Order of operations work like we were taught at school.
 
     int a = 1 + 2 * 3;
     printf("Result: %d\n", a);
+    //Result: 7
 
     int b = (1 + 2) * 3;
     printf("Result: %d\n", b);
+    //Result = 9
+
+    /*
+     * How to assign the same value to different variables
+     * 1 - Make the variables equal to themselves and to a value
+     */
+
+    int c;
+    int d;
+    int e;
+
+    c = d = e = 100;
+
+    printf("C = %d, D = %d, E = %d\n", c, d, e);
+    // C = 100, D = 100, E = 100
+
+    float age1, age2, age3, avg;
+    age1 = age2 = 14.6;
+    printf("Write your age\n");
+    scanf("%f", &age3);
+    avg = (age1 + age2 + age3)/3;
+    printf("Average is %f", avg);
+
 
     return 0;
 
