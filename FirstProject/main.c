@@ -18,6 +18,7 @@ int main()
     printf("My name do be %s\n", MYNAME);
     /*
      * %s -> Strings
+     * %c -> chars
      * %d -> Whole numbers (1, 2, 3...)
      * %f -> floating point numbers (floats) (3.141592...)
      * %.xf -> x Round floating point numbers to the value of x ( "I am %.2f human" -> "I am 99.17 human" BUT NOT "I am 99,99999 human"). It also rounds it
@@ -127,7 +128,7 @@ int main()
 
     int weight = 134;
     printf("If i eat a materwelon, I'll weight %d stones\n", weight+41);
-    // If i eat a materwelon, I'll weight 175 stones
+    // If I eat a materwelon, I'll weight 175 stones
 
 
     //Order of operations work like we were taught at school.
@@ -159,9 +160,86 @@ int main()
     printf("Write your age\n");
     scanf("%f", &age3);
     avg = (age1 + age2 + age3)/3;
-    printf("Average is %f", avg);
+    printf("Average is %f\n", avg);
 
 
+
+    int pageViews = 0;
+    pageViews = pageViews + 1;
+    printf("Page views: %d\n", pageViews);
+
+    //Like in every programming language, you can use x += y instead of x = x + y
+
+    float bal = 1000.0;
+
+    bal *= 1.41;
+    printf("Balance is : %f\n", bal);
+    bal *= 1.41;
+    printf("Balance is : %f\n", bal);
+    bal *= 1.41;
+    printf("Balance is : %f\n", bal);
+
+    /*
+     * **Typecasting** - Change the type of variable temporarily
+     * Just write (dataType) behind the variable!
+     */
+
+    float avgProfit;
+    int pumpkinPrice = 10;
+    int sales = 65;
+    int daysWork = 7;
+
+    // -> Wrong
+    avgProfit = (pumpkinPrice * sales) / daysWork;
+    printf("The profit is %.2f Euros\n", avgProfit);
+
+    // -> Right
+    avgProfit = ((float)pumpkinPrice * (float)sales ) / (float)daysWork;
+    printf("The profit is %.2f Euros\n", avgProfit);
+
+    /*
+     * IF Statements! You love it, I love it, everyone loves it!
+     * Syntax is like almost everywhere
+     * if(statement)
+     * {
+     *
+     * }
+     * And like everywhere, math conditions are the same (==, >=, <=, !=...)
+     */
+    if(avg > 9)
+    {
+        printf("Sociedad\n");
+    }
+    if(avgProfit < 9)
+    {
+        printf("Sociedad\n");
+    }
+    int ageRequest;
+    printf("Write your age, so we can verify you can access this content: \n");
+    scanf("%d", &ageRequest);
+
+    char sex;
+    printf("What's your sex? m/f \n");
+    // On GCC and CMake (The most used compilers), You need to leave a space behind the %c!
+    scanf(" %c", &sex);
+
+    if(ageRequest >= 18)
+    {
+        printf("Welcome to the website ");
+        //You can also put ifs inside of other if statements!
+        if(sex == 'm')
+        {
+            printf("dud!");
+        }
+        else
+        {
+            printf("gal!");
+        }
+    }
+    else
+    {
+        printf("Go away voldemort\n");
+    }
     return 0;
 
 }
